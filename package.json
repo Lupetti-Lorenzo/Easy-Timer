@@ -1,0 +1,74 @@
+{
+	"name": "easy-timer",
+	"displayName": "Easy Timer",
+	"description": "A timer that sits in the status bar that can be started, stopped and restarted to timer your coding sessions.",
+	"publisher": "Lorenzo-Lupetti",
+	"author": {
+		"name": "Lorenzo Lupetti"
+	},
+	"version": "1.0.0",
+	"bugs": {
+		"email": "lupetti.lorenzo3@gmail.com"
+	},
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Lupetti-Lorenzo/EasyTimer"
+	},
+	"galleryBanner": {
+		"color": "#629cff",
+		"theme": "dark"
+	},
+	"keywords": [
+		"Timer",
+		"Productivity",
+		"Easy",
+		"Time",
+		"Session"
+	],
+	"categories": [
+		"Other",
+		"Visualization"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"icon": "icon.png",
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [],
+		"configuration": {
+			"title": "Easy Timer",
+			"properties": {
+				"easytimer.active": {
+					"type": "boolean",
+					"default": true,
+					"description": "A timer that sits in the status bar that can be started, stopped and restarted to timer your coding sessions."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.52.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.4",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.15.0",
+		"@typescript-eslint/eslint-plugin": "^4.9.0",
+		"@typescript-eslint/parser": "^4.9.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.1.3",
+		"typescript": "^4.1.2",
+		"vscode-test": "^1.4.1"
+	}
+}
