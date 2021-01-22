@@ -1,7 +1,7 @@
 {
 	"name": "easy-timer",
 	"displayName": "Easy Timer",
-	"description": "A timer that sits in the status bar that can be started, stopped and restarted to timer your coding sessions.",
+	"description": "A stopwatch in the status bar that can be started, stopped and restarted to track your coding sessions.",
 	"publisher": "Lorenzo-Lupetti",
 	"author": {
 		"name": "Lorenzo Lupetti"
@@ -15,7 +15,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Lupetti-Lorenzo/EasyTimer"
+		"url": "https://github.com/Lupetti-Lorenzo/Easy-Timer"
 	},
 	"galleryBanner": {
 		"color": "#629cff",
@@ -23,7 +23,7 @@
 	},
 	"keywords": [
 		"Timer",
-		"Productivity",
+		"StopWatch",
 		"Easy",
 		"Time",
 		"Session"
@@ -35,7 +35,7 @@
 	"activationEvents": [
 		"*"
 	],
-	"icon": "icon.png",
+	"icon": "./img/icon.png",
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [],
@@ -45,7 +45,7 @@
 				"easytimer.active": {
 					"type": "boolean",
 					"default": true,
-					"description": "A timer that sits in the status bar that can be started, stopped and restarted to timer your coding sessions."
+					"description": "Enable/Disable the timer."
 				}
 			}
 		}
