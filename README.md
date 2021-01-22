@@ -2,9 +2,17 @@
 
 ## Features
 
-![How it works](img/playGif.gif) Just click the play button in the status bar to start.
+### How it works
 
-![How to stop](img/finishMessage.png) Click the save button in the status bar to finish the session. If you hit it for mistake just press continue session or x in the message.
+Just click the play button in the status bar to start.
+
+![](img/playGif.gif)
+
+### How to stop
+
+Click the save button in the status bar to finish the session. If you hit it for mistake just press continue session or x in the message.
+
+![](img/finishMessage.png)
 
 ## Extension Settings
 
