@@ -1,7 +1,7 @@
 {
 	"name": "easy-timer",
 	"displayName": "Easy Timer",
-	"description": "A stopwatch in the status bar that can be started, stopped and restarted to track your coding sessions.",
+	"description": "A stopwatch in the status bar to track your coding sessions.",
 	"publisher": "Lorenzo-Lupetti",
 	"author": {
 		"name": "Lorenzo Lupetti"
@@ -35,7 +35,7 @@
 	"activationEvents": [
 		"*"
 	],
-	"icon": "./img/icon.png",
+	"icon": "img/icon.png",
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [],
