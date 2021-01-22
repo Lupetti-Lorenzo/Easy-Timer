@@ -2,12 +2,12 @@
 
 ## Features
 
-### -How it works.  
+### *How it works.  
 Just click the play button in the status bar to start.
 
 ![](img/playGif.gif)
 
-### -How to stop.  
+### *How to stop.  
 Click the save button in the status bar to finish the session. If you press it for mistake just hit continue or x.
 
 ![](img/finishMessage.png)
