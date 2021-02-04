@@ -1,5 +1,5 @@
 import * as vscode from "vscode";
-
+     
 export class Timer {
 	public timerStates = Object.freeze({
 		play: "PLAY",

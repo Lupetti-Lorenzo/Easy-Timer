@@ -18,4 +18,6 @@ This extension contributes the following settings:
 
 -   `easytimer.active`: enable/disable this extension
 
-### Enjoy!
+---
+
+**Enjoy!**
