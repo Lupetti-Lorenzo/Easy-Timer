@@ -1,19 +1,7 @@
-
 <div align="center">
-  <img src="img/icon.png" alt="Timer Logo" width="160">
   <h1>EASY TIMER FOR VSCODE</h1>
-	<p>A stopwatch in the status bar to track your coding sessions.</p>
-	
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![VSCode Extension](https://img.shields.io/badge/VSCode%20Extension-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-
 </div>
 <br>
-
-
-
-## 
 
 ## ***_How it works._***
 
